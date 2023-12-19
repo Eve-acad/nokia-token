@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header h1, header h2, .navigation, .galleria h2 {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #00439C;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .buybutton {
+    background-color: #00439C;
+    color: white;
+    text-decoration: none;
+    padding: 30px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the images in a column */
+  }
+  
+  .image-container {
+    border: 1px solid #ccc; /* Adds an outline to the container */
+    width: 450px; /* Fixed width for the container */
+    height: 500px; /* Fixed height for the container */
+    margin: 20px 0; /* Adds space between each image container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content vertically and horizontally */
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 90%; /* Makes the image a bit smaller than the container */
+    max-height: 70%; /* Adjusts the height to maintain aspect ratio */
+    margin-bottom: 10px; /* Adds space between the image and the label */
+  }
+  
+  .label {
+    font-size: 1em;
+  }
+  
+  
+  .button:hover {
+    background-color: #2a7be4;
+  }
+
+  .buybutton:hover {
+    background-color: #2a7be4;
+  }
+  
+  /* Add this at the end of your existing styles */
+
+footer {
+    background-color: #00439C; /* The desired background color */
+    color: white; /* White text color */
+    text-align: center; /* Center the text inside the footer */
+    padding: 20px; /* Add some padding inside the footer */
+    font-size: 1em; /* Adjust the font size as needed */
+  }
+  
+  footer p {
+    margin: 0; /* Removes the default margin of paragraph for a clean look */
+  }
+  
